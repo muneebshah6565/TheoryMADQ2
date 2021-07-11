@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".AddBill">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:text="Add Bill detail"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-black"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="310dp"
+            android:layout_height="482dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.615"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.689">
+
+            <EditText
+                android:id="@+id/custName"
+                android:layout_width="300dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:hint="Customer Name"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/billNo"
+                android:layout_width="300dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:hint="Bill Number"
+                android:padding="10dp"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/meterNo"
+                android:layout_width="300dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:hint="Meter Number"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/amount"
+                android:layout_width="300dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:hint="Amount"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/lastUnits"
+                android:layout_width="300dp"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_input"
+                android:hint="Last Units"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/currentUnits"
+                android:layout_width="300dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:hint="Current Units"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/saveBTN"
+                android:layout_width="310dp"
+                android:layout_height="43dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_button"
+                android:text="Save" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

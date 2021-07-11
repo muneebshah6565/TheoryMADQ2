@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardActivity">
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="bold"
+        android:text="Welcome to BMS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView10"
+        >
+        <Button
+            android:id="@+id/newBill"
+            android:layout_width="310dp"
+            android:layout_height="43dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/custom_button"
+            android:text="Add New Bill"
+             />
+
+        <Button
+            android:id="@+id/viewAll"
+            android:layout_width="310dp"
+            android:layout_height="43dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/custom_button"
+            android:text="View all Bills"
+            />
+
+        <Button
+            android:id="@+id/passChange"
+            android:layout_width="310dp"
+            android:layout_height="43dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/custom_button"
+            android:text="Change Password"
+            />
+
+        <Button
+            android:id="@+id/contactForm"
+            android:layout_width="310dp"
+            android:layout_height="43dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/custom_button"
+            android:text="Contact Us"
+            />
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="310dp"
+            android:layout_height="43dp"
+            android:background="@drawable/custom_button"
+            android:text="Logout"
+            />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

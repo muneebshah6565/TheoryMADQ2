@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "621688505987",
+    "project_id": "theoryq2-2968a",
+    "storage_bucket": "theoryq2-2968a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621688505987:android:3947edac2a96c158d2bdb6",
+        "android_client_info": {
+          "package_name": "com.example.q2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621688505987-8se8ih41ciejn85uqglb0qb3qg2454sl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKuNvlohwJG13qg5I1kgtFYbnIc4PFgkc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621688505987-8se8ih41ciejn85uqglb0qb3qg2454sl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
